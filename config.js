@@ -15,7 +15,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ALI-MD",
 // add bot namw here for menu
@@ -57,7 +57,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 DELETE_LINK: process.env.DELETE_LINK || "true",
 // make anti link true,false for groups 
@@ -71,7 +71,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
